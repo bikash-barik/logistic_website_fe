@@ -94,6 +94,8 @@ const Growth = () => {
                 <div className='flex items-end justify-around h-full gap-2 sm:gap-4 lg:gap-6'>
                   {growthData.map((data, index) => {
                     const heightPercentage = (data.value / maxValue) * 100
+                    // Ensure minimum visible height of 3% for very small values
+                    const displayHeight = Math.max(heightPercentage, 3)
                     const isHovered = hoveredBar === index
 
                     return (
@@ -105,7 +107,7 @@ const Growth = () => {
                         onMouseLeave={() => setHoveredBar(null)}
                       >
                         {/* Spacer to push bar to bottom */}
-                        <div style={{ flex: `0 0 ${100 - heightPercentage}%` }}></div>
+                        <div style={{ flex: `0 0 ${100 - displayHeight}%` }}></div>
                         
                         {/* Tooltip on Hover */}
                         {isHovered && (
@@ -123,10 +125,11 @@ const Growth = () => {
                             isHovered ? 'bg-gradient-to-t from-orange-600 to-orange-400' : 'bg-gradient-to-t from-[#003751] to-[#0066CC]'
                           }`}
                           style={{ 
-                            height: isVisible ? `${heightPercentage}%` : '0%',
+                            height: isVisible ? `${displayHeight}%` : '0%',
                             transitionDelay: `${index * 10}ms`,
-                            transform: isHovered ? 'scaleY(1.15)' : 'scaleY(1)',
-                            transformOrigin: 'bottom'
+                            transform: isHovered ? 'scaleY(1.1)' : 'scaleY(1)',
+                            transformOrigin: 'bottom',
+                            minHeight: '20px'
                           }}
                         >
                           {/* Shine Effect on Hover */}
