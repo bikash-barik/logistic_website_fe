@@ -5,18 +5,18 @@ const Section4 = () => {
   const features = [
     {
       icon: <FaUserShield className='text-5xl' />,
-      title: 'Customer-First Approach',
-      description: 'First we prioritize customer needs.'
+      title: 'Client-Centric Approach',
+      description: 'Dedicated account management with personalized solutions designed around your unique business requirements.'
     },
     {
       icon: <FaMoneyBillWave className='text-5xl' />,
-      title: 'Cost-Effective Solutions',
-      description: 'Our cost-effective logistics solutions help.'
+      title: 'Competitive Pricing',
+      description: 'Cost-effective logistics solutions without compromising on quality, ensuring maximum value for your investment.'
     },
     {
       icon: <FaTruck className='text-5xl' />,
-      title: 'Flexible Transport Options',
-      description: 'We offer flexible transport options tailored.'
+      title: 'Flexible Solutions',
+      description: 'Customizable freight options across multiple modes of transport, adapting to your changing business needs.'
     }
   ]
 
@@ -33,12 +33,12 @@ const Section4 = () => {
 
             {/* Main Heading */}
             <h2 className='text-3xl sm:text-4xl lg:text-5xl xl:text-7xl font-bold text-[#003751] leading-tight mb-6 sm:mb-8'>
-              The smart choice in trusted transport<span className='text-orange-500'>.</span>
+              Your trusted partner in global logistics<span className='text-orange-500'>.</span>
             </h2>
 
             {/* Description */}
             <p className='text-gray-500 text-base sm:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-10 lg:mb-12'>
-              We are dedicated to delivering seamless, reliable, and efficient transport and logistics solutions tailored to meet the evolving needs of businesses and individuals.
+              Vyuh Logistics combines industry expertise with cutting-edge technology to deliver seamless freight forwarding solutions. Our commitment to excellence and customer satisfaction sets us apart in the competitive logistics landscape.
             </p>
 
             {/* Profile Images and Text */}
@@ -56,7 +56,7 @@ const Section4 = () => {
                 />
               </div>
               <p className='text-[#003751] text-base sm:text-lg font-medium underline decoration-2 underline-offset-4'>
-                Web code from experts.
+                Logistics experts at your service.
               </p>
             </div>
           </div>
@@ -66,10 +66,10 @@ const Section4 = () => {
             {features.map((feature, index) => (
               <div 
                 key={index}
-                className='flex items-start gap-4 sm:gap-6 p-5 sm:p-8 bg-white rounded-xl lg:rounded-2xl border-l-4 border-transparent hover:border-orange-500 hover:shadow-xl transition-all duration-300'
+                className='flex items-start gap-4 sm:gap-6 p-5 sm:p-8 bg-white rounded-xl lg:rounded-2xl border-l-4 border-transparent hover:border-orange-500 hover:shadow-xl transition-all duration-300 hover:translate-x-2'
               >
                 {/* Icon */}
-                <div className='text-orange-500 shrink-0 text-3xl sm:text-5xl'>
+                <div className='text-orange-500 shrink-0 text-3xl sm:text-5xl transition-transform duration-300 hover:scale-110'>
                   {feature.icon}
                 </div>
 

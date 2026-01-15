@@ -6,7 +6,7 @@ const Section2 = () => {
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-12'>
                 <div className='flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-12 xl:gap-16'>
                     {/* Image */}
-                    <div className='w-full lg:w-1/2 flex-shrink-0'>
+                    <div className='w-full lg:w-1/2 shrink-0'>
                         <img 
                             src="https://frexuswp.websitelayout.net/wp-content/uploads/2025/09/about-03.jpg" 
                             alt="About Frexus" 
@@ -26,50 +26,57 @@ const Section2 = () => {
                         {/* Heading */}
                         <div>
                             <h2 className='text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#003751] leading-tight'>
-                                Reliable transport smart logistics solutions.
+                                Leading Freight Forwarder & Logistics Provider
                             </h2>
+                        </div>
+
+                        {/* Description */}
+                        <div>
+                            <p className='text-gray-600 text-base sm:text-lg leading-relaxed'>
+                                Vyuh Logistics is a premier freight forwarding and logistics company offering comprehensive supply chain solutions. With a global network and years of expertise, we specialize in seamless cargo movement across air, sea, and land.
+                            </p>
                         </div>
 
                         {/* Features List */}
                         <div className='flex flex-col justify-between items-start gap-6 sm:gap-8 w-full'>
-                            <div className='flex gap-4 sm:gap-5 items-start'>
-                                <div className='bg-orange-500 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center font-bold text-lg sm:text-xl shrink-0'>
+                            <div className='flex gap-4 sm:gap-5 items-start group hover:translate-x-2 transition-transform duration-300'>
+                                <div className='bg-orange-500 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center font-bold text-lg sm:text-xl shrink-0 group-hover:scale-110 transition-transform duration-300'>
                                     01
                                 </div>
                                 <div>
                                     <h3 className='font-bold text-xl sm:text-2xl lg:text-3xl text-[#003751] mb-2 sm:mb-3'>
-                                        Real-Time Tracking
+                                        Global Network
                                     </h3>
                                     <p className='text-gray-600 text-base sm:text-lg leading-relaxed'>
-                                        Real-time tracking is a technology used in transport and logistics to monitor the location and status of goods vehicles.
+                                        Extensive worldwide presence with strategic partnerships ensuring reliable service delivery across continents.
                                     </p>
                                 </div>
                             </div>
 
-                            <div className='flex gap-4 sm:gap-5 items-start'>
-                                <div className='bg-orange-500 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center font-bold text-lg sm:text-xl shrink-0'>
+                            <div className='flex gap-4 sm:gap-5 items-start group hover:translate-x-2 transition-transform duration-300'>
+                                <div className='bg-orange-500 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center font-bold text-lg sm:text-xl shrink-0 group-hover:scale-110 transition-transform duration-300'>
                                     02
                                 </div>
                                 <div>
                                     <h3 className='font-bold text-xl sm:text-2xl lg:text-3xl text-[#003751] mb-2 sm:mb-3'>
-                                        Efficient Delivery
+                                        Expertise & Experience
                                     </h3>
                                     <p className='text-gray-600 text-base sm:text-lg leading-relaxed'>
-                                        Real-time tracking is a technology used in transport and logistics to monitor the location and status of goods vehicles.
+                                        Decades of industry experience with specialized knowledge in handling diverse cargo requirements efficiently.
                                     </p>
                                 </div>
                             </div>
 
-                            <div className='flex gap-4 sm:gap-5 items-start'>
-                                <div className='bg-orange-500 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center font-bold text-lg sm:text-xl shrink-0'>
+                            <div className='flex gap-4 sm:gap-5 items-start group hover:translate-x-2 transition-transform duration-300'>
+                                <div className='bg-orange-500 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center font-bold text-lg sm:text-xl shrink-0 group-hover:scale-110 transition-transform duration-300'>
                                     03
                                 </div>
                                 <div>
                                     <h3 className='font-bold text-xl sm:text-2xl lg:text-3xl text-[#003751] mb-2 sm:mb-3'>
-                                        Secure Storage
+                                        Technology Driven
                                     </h3>
                                     <p className='text-gray-600 text-base sm:text-lg leading-relaxed'>
-                                        Real-time tracking is a technology used in transport and logistics to monitor the location and status of goods vehicles.
+                                        Advanced tracking systems and digital platforms providing real-time visibility and seamless communication.
                                     </p>
                                 </div>
                             </div>

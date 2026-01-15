@@ -118,11 +118,11 @@ Application, Certificate of Origin`,
         </div>
 
         {/* Bottom CTA */}
-        <div className='text-center mt-12 sm:mt-16'>
+        {/* <div className='text-center mt-12 sm:mt-16'>
           <button className='bg-[#003751] hover:bg-orange-500 text-white font-bold text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-5 rounded-full transition-all duration-300 hover:scale-105 shadow-lg'>
             VIEW ALL SERVICES
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   )

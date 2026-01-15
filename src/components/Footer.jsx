@@ -14,11 +14,11 @@ const Footer = () => {
       {/* Top Section */}
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-14 lg:py-16'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12 lg:gap-16'>
-          {/* About Frexus */}
+          {/* About */}
           <div>
-            <h3 className='text-white text-2xl sm:text-3xl font-bold mb-4 sm:mb-6'>About Frexus</h3>
+            <h3 className='text-white text-2xl sm:text-3xl font-bold mb-4 sm:mb-6'>About Vyuh Logistics</h3>
             <p className='text-gray-300 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8'>
-              We have been the most trusted transport partner for 25+ years.
+              Leading freight forwarder providing comprehensive logistics solutions worldwide. Your trusted partner in global trade.
             </p>
             
             {/* Social Media Icons */}
@@ -56,19 +56,19 @@ const Footer = () => {
             <div className='space-y-3 sm:space-y-4 text-gray-300 text-base sm:text-lg'>
               <div>
                 <span className='font-semibold text-white'>ADDRESS:</span>
-                <span className='ml-2'>66 Guild Street 512B, Great North Town.</span>
+                <span className='ml-2'>Mumbai, Maharashtra, India</span>
               </div>
               <div>
                 <span className='font-semibold text-white'>MAIL:</span>
-                <span className='ml-2'>addyour@email</span>
+                <span className='ml-2'>info@vyuhlogistics.com</span>
               </div>
               <div>
                 <span className='font-semibold text-white'>PHONE:</span>
-                <span className='ml-2'>(+44) 123 456 789</span>
+                <span className='ml-2'>+91 (123) 456 7890</span>
               </div>
               <div>
-                <span className='font-semibold text-white'>FAX ID:</span>
-                <span className='ml-2'>(+1) 523-567-987</span>
+                <span className='font-semibold text-white'>SUPPORT:</span>
+                <span className='ml-2'>24/7 Available</span>
               </div>
             </div>
           </div>
@@ -113,15 +113,14 @@ const Footer = () => {
           {/* Logo */}
           <div className='flex items-center gap-3 sm:gap-4'>
             <div className='flex items-center gap-3'>
-              {/* Logo Icon */}
+              {/* Logo Text */}
               <div className='relative'>
-                <div className='flex-shrink-0'>
-                    <img
-                        src="https://frexuswp.websitelayout.net/wp-content/uploads/2025/11/logo-inner.png"
-                        className='h-10 sm:h-12 lg:h-14 w-auto'
-                        alt="Frexus Logo" 
-                    />
+                <div className='text-white text-2xl sm:text-3xl lg:text-4xl font-bold'>
+                    <span className='text-orange-500'>V</span>YUH
                 </div>
+              </div>
+              <div className='text-white text-xs sm:text-sm font-medium'>
+                  LOGISTICS
               </div>
             </div>
           </div>
