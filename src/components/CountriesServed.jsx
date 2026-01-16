@@ -6,54 +6,54 @@ const CountriesServed = () => {
   // Key locations with coordinates (left/top in percentage) - Accurately positioned
   const locations = [
     // North America
-    { id: 1, name: 'Canada', left: '18.5%', top: '18%', region: 'North America' },
-    { id: 2, name: 'USA', left: '17%', top: '28%', region: 'North America' },
-    { id: 3, name: 'Mexico', left: '15%', top: '40%', region: 'North America' },
+    { id: 1, name: 'Canada', left: '27.5%', top: '33%', region: 'North America' },
+    { id: 2, name: 'USA', left: '30%', top: '42%', region: 'North America' },
+    { id: 3, name: 'Mexico', left: '25%', top: '47%', region: 'North America' },
     
     // South America
-    { id: 4, name: 'Peru', left: '25%', top: '65%', region: 'South America' },
-    { id: 5, name: 'Brazil', left: '32%', top: '68%', region: 'South America' },
+    { id: 4, name: 'Peru', left: '32.5%', top: '69%', region: 'South America' },
+    { id: 5, name: 'Brazil', left: '39%', top: '67%', region: 'South America' },
 
     // Europe
-    { id: 6, name: 'UK', left: '46.5%', top: '22%', region: 'Europe' },
-    { id: 7, name: 'Sweden', left: '51%', top: '14%', region: 'Europe' },
-    { id: 8, name: 'Poland', left: '52%', top: '22%', region: 'Europe' },
-    { id: 9, name: 'Germany', left: '50%', top: '24%', region: 'Europe' },
-    { id: 10, name: 'Netherlands', left: '48.5%', top: '23%', region: 'Europe' },
-    { id: 11, name: 'Belgium', left: '48.5%', top: '25%', region: 'Europe' },
-    { id: 12, name: 'France', left: '47.5%', top: '28%', region: 'Europe' },
-    { id: 13, name: 'Switzerland', left: '49.5%', top: '28%', region: 'Europe' },
-    { id: 14, name: 'Italy', left: '51%', top: '32%', region: 'Europe' },
-    { id: 15, name: 'Spain', left: '45.5%', top: '35%', region: 'Europe' },
-    { id: 16, name: 'Malta', left: '51.5%', top: '38%', region: 'Europe' },
+    { id: 6, name: 'UK', left: '46.5%', top: '35%', region: 'Europe' },
+    { id: 7, name: 'Sweden', left: '56%', top: '31.5%', region: 'Europe' },
+    { id: 8, name: 'Poland', left: '60%', top: '36%', region: 'Europe' },
+    { id: 9, name: 'Germany', left: '52%', top: '38%', region: 'Europe' },
+    { id: 10, name: 'Netherlands', left: '48%', top: '38%', region: 'Europe' },
+    { id: 11, name: 'Belgium', left: '47%', top: '40.5%', region: 'Europe' },
+    { id: 12, name: 'France', left: '46.5%', top: '42.5%', region: 'Europe' },
+    { id: 13, name: 'Switzerland', left: '50.5%', top: '41%', region: 'Europe' },
+    { id: 14, name: 'Italy', left: '52%', top: '44%', region: 'Europe' },
+    { id: 15, name: 'Spain', left: '45.5%', top: '44%', region: 'Europe' },
+    { id: 16, name: 'Malta', left: '49.5%', top: '47%', region: 'Europe' },
 
     // Africa
-    { id: 17, name: 'Ghana', left: '47%', top: '54%', region: 'Africa' },
-    { id: 18, name: 'Nigeria', left: '49.5%', top: '54%', region: 'Africa' },
-    { id: 19, name: 'South Africa', left: '54.5%', top: '81%', region: 'Africa' },
-    { id: 20, name: 'Madagascar', left: '61%', top: '74%', region: 'Africa' },
+    { id: 17, name: 'Ghana', left: '46%', top: '59.5%', region: 'Africa' },
+    { id: 18, name: 'Nigeria', left: '48.5%', top: '60%', region: 'Africa' },
+    { id: 19, name: 'South Africa', left: '51.5%', top: '77%', region: 'Africa' },
+    { id: 20, name: 'Madagascar', left: '56%', top: '72%', region: 'Africa' },
 
     // Middle East & Eurasia
-    { id: 21, name: 'Turkey', left: '56%', top: '33%', region: 'Middle East' },
-    { id: 22, name: 'Russia', left: '70%', top: '20%', region: 'Middle East' },
-    { id: 23, name: 'Qatar', left: '61%', top: '45%', region: 'Middle East' },
-    { id: 24, name: 'UAE', left: '62.5%', top: '46%', region: 'Middle East' },
-    { id: 25, name: 'Oman', left: '64%', top: '48%', region: 'Middle East' },
+    { id: 21, name: 'Turkey', left: '54%', top: '46%', region: 'Middle East' },
+    { id: 22, name: 'Russia', left: '68%', top: '35%', region: 'Middle East' },
+    { id: 23, name: 'Qatar', left: '56%', top: '49%', region: 'Middle East' },
+    { id: 24, name: 'UAE', left: '57.5%', top: '51%', region: 'Middle East' },
+    { id: 25, name: 'Oman', left: '58.5%', top: '53%', region: 'Middle East' },
 
     // Asia
-    { id: 26, name: 'India', left: '71%', top: '48%', region: 'Asia' },
-    { id: 27, name: 'Bangladesh', left: '74%', top: '48%', region: 'Asia' },
-    { id: 28, name: 'China', left: '78%', top: '38%', region: 'Asia' },
-    { id: 29, name: 'South Korea', left: '85%', top: '35%', region: 'Asia' },
-    { id: 30, name: 'Japan', left: '88%', top: '33%', region: 'Asia' },
-    { id: 31, name: 'Taiwan', left: '84%', top: '45%', region: 'Asia' },
-    { id: 32, name: 'Singapore', left: '79.5%', top: '59%', region: 'Asia' },
-    { id: 33, name: 'Malaysia', left: '82%', top: '57%', region: 'Asia' },
-    { id: 34, name: 'Indonesia', left: '83%', top: '65%', region: 'Asia' },
+    { id: 26, name: 'India', left: '62.5%', top: '50%', region: 'Asia' },
+    { id: 27, name: 'Bangladesh', left: '67%', top: '50%', region: 'Asia' },
+    { id: 28, name: 'China', left: '70%', top: '46%', region: 'Asia' },
+    { id: 29, name: 'South Korea', left: '72%', top: '44%', region: 'Asia' },
+    { id: 30, name: 'Japan', left: '74%', top: '45%', region: 'Asia' },
+    { id: 31, name: 'Taiwan', left: '71%', top: '58%', region: 'Asia' },
+    { id: 32, name: 'Singapore', left: '67%', top: '60%', region: 'Asia' },
+    { id: 33, name: 'Malaysia', left: '70%', top: '63%', region: 'Asia' },
+    { id: 34, name: 'Indonesia', left: '68%', top: '65%', region: 'Asia' },
 
     // Oceania
-    { id: 35, name: 'Australia', left: '87%', top: '78%', region: 'Oceania' },
-    { id: 36, name: 'New Zealand', left: '97%', top: '86%', region: 'Oceania' },
+    { id: 35, name: 'Australia', left: '71%', top: '72%', region: 'Oceania' },
+    { id: 36, name: 'New Zealand', left: '81%', top: '82.5%', region: 'Oceania' },
   ]
 
   return (
