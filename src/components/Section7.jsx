@@ -15,7 +15,7 @@ const testimonials = [
   {
     id: 2,
     title: <i>"Agile"</i>,
-    logo: "",
+    logo: "/certifications/logo.png",
     message: (
       <b>
         We like their flexible and agile approach towards our varied cargoes &
@@ -26,7 +26,7 @@ const testimonials = [
   {
     id: 3,
     title: <i>"Consistency"</i>,
-    logo: "",
+    logo: "https://colchoneriasanvicente.com.ar/wp-content/uploads/2024/06/Cannon-1.jpg",
     message: (
       <b>
         VYUH has been consistent with their services and optimized costings. This
@@ -69,7 +69,7 @@ export default function Testimonials() {
               />
             </div>
 
-            {/* ONLY THIS PART CHANGED */}
+            
             <div className="
               bg-white text-black border rounded-2xl p-6
               flex flex-col justify-start h-[260px] w-full text-center
