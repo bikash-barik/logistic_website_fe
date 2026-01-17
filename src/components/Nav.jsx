@@ -25,11 +25,14 @@ const Nav = () => {
             <div className='flex h-20 lg:h-24 w-full px-4 sm:px-6 lg:px-12 xl:px-16 justify-between items-center max-w-[1920px] mx-auto'>
                 {/* Logo */}
                 <div className='flex-shrink-0'>
-                    <img
-                        src="https://frexuswp.websitelayout.net/wp-content/uploads/2025/11/logo-inner.png"
-                        className='h-10 sm:h-12 lg:h-14 w-auto'
-                        alt="Frexus Logo" 
-                    />
+                    <div className='flex items-center gap-3'>
+                        <div className='text-white text-2xl sm:text-3xl lg:text-4xl font-bold'>
+                            <span className='text-orange-500'>V</span>YUH
+                        </div>
+                        <div className='text-white text-xs sm:text-sm font-medium'>
+                            LOGISTICS
+                        </div>
+                    </div>
                 </div>
 
                 {/* Desktop Navigation */}

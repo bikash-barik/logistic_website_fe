@@ -34,73 +34,63 @@ const Section5 = () => {
 
             {/* Main Heading */}
             <h2 className='text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#003751] leading-tight mb-6 sm:mb-8'>
-              Ready to move faster? Contact us today<span className='text-orange-500'>.</span>
+              Get in touch with our logistics experts<span className='text-orange-500'>.</span>
             </h2>
 
             {/* Description */}
             <p className='text-gray-600 text-base sm:text-lg lg:text-xl leading-relaxed mb-12 sm:mb-14 lg:mb-16'>
-              Reach out to us for support, collaborations, or to learn more about our profession.
+              Have a question or need a quote? Our team is ready to assist you with customized logistics solutions.
             </p>
 
             {/* Contact Information Grid */}
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-8 sm:gap-x-12 lg:gap-x-16 gap-y-8 sm:gap-y-10 lg:gap-y-12'>
-              {/* Main Phone Number */}
-              <div>
-                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3'>
-                  Main Phone Number
+              {/* Phone Number */}
+              <div className='group hover:translate-x-2 transition-transform duration-300'>
+                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3 group-hover:text-orange-500 transition-colors duration-300'>
+                  Phone Number
                 </h3>
                 <p className='text-gray-600 text-base sm:text-lg'>
-                  (+44) 123 456 789
-                </p>
-              </div>
-
-              {/* Training for Success */}
-              <div>
-                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3'>
-                  Training for Success
-                </h3>
-                <p className='text-gray-600 text-base sm:text-lg'>
-                  Please visit the training section
-                </p>
-              </div>
-
-              {/* For Support Related */}
-              <div>
-                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3'>
-                  For Support Related
-                </h3>
-                <p className='text-gray-600 text-base sm:text-lg'>
-                  Please visit the our faq's
-                </p>
-              </div>
-
-              {/* For Website Related */}
-              <div>
-                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3'>
-                  For Website Related
-                </h3>
-                <p className='text-gray-600 text-base sm:text-lg'>
-                  www.example.com
+                  +91 (123) 456 7890
                 </p>
               </div>
 
               {/* Email Address */}
-              <div>
-                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3'>
+              <div className='group hover:translate-x-2 transition-transform duration-300'>
+                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3 group-hover:text-orange-500 transition-colors duration-300'>
                   Email Address
                 </h3>
                 <p className='text-gray-600 text-base sm:text-lg'>
-                  info@example.com
+                  info@vyuhlogistics.com
                 </p>
               </div>
 
-              {/* Find our Locations */}
-              <div>
-                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3'>
-                  Find our Locations
+              {/* Business Hours */}
+              <div className='group hover:translate-x-2 transition-transform duration-300'>
+                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3 group-hover:text-orange-500 transition-colors duration-300'>
+                  Business Hours
                 </h3>
                 <p className='text-gray-600 text-base sm:text-lg'>
-                  Search on the map
+                  24/7 Support Available
+                </p>
+              </div>
+
+              {/* Website */}
+              <div className='group hover:translate-x-2 transition-transform duration-300'>
+                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3 group-hover:text-orange-500 transition-colors duration-300'>
+                  Website
+                </h3>
+                <p className='text-gray-600 text-base sm:text-lg'>
+                  www.vyuhlogistics.com
+                </p>
+              </div>
+
+              {/* Head Office */}
+              <div className='group hover:translate-x-2 transition-transform duration-300 sm:col-span-2'>
+                <h3 className='text-xl sm:text-2xl font-bold text-[#003751] mb-2 sm:mb-3 group-hover:text-orange-500 transition-colors duration-300'>
+                  Head Office
+                </h3>
+                <p className='text-gray-600 text-base sm:text-lg'>
+                  Mumbai, Maharashtra, India
                 </p>
               </div>
             </div>
