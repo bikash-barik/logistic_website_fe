@@ -9,6 +9,11 @@ import Growth from './components/Growth'
 import CountriesServed from './components/CountriesServed'
 import Clientele from './components/Clientele'
 import Section5 from './components/Section5'
+import Section6 from './components/Section6'
+import Section7 from './components/Section7'
+import Section8 from './components/Section8'
+
+
 import Footer from './components/Footer'
 
 function App() {
@@ -26,6 +31,9 @@ function App() {
     <CountriesServed/>
     <Clientele/>
     <Section5/>
+    <Section6/>
+    <Section8/>
+    <Section7/>
     <Footer/>
     </>
   )
